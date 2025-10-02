@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: mit_6_096_lab2
+# Project: 6.096
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/adihiremath/CLionProjects/mit_6.096_lab2 -B/Users/adihiremath/CLionProjects/mit_6.096_lab2/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2 -B/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

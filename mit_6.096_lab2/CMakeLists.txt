@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.0)
-project(mit_6_096_lab2)
+project(6.096)
 
 set(CMAKE_CXX_STANDARD 20)
 

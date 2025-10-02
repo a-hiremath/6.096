@@ -1,3 +1,3 @@
-/Users/adihiremath/CLionProjects/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6_096_lab2.dir
-/Users/adihiremath/CLionProjects/mit_6.096_lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/adihiremath/CLionProjects/mit_6.096_lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6_096_lab2.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
