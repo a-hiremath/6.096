@@ -84,19 +84,122 @@ void printArray(int arr[], int n) {
 }
 
 void reverseArray(int arr[], const int n) {
-    for (int i = 0; i < n / 2; ++i) {
-        int t = arr[i];
-        int fromEnd = n - i - 1;
-        arr[i] = arr[fromEnd];
-        arr[fromEnd] = t;
+    int tmp[n];
+    for (int i = 0; i < n; i++) {
+        tmp[i] = arr[n - i - 1];
+    }
+    for (int i = 0; i < n; i++) {
+        arr[i] = tmp[i];
+        cout << arr[i] << ", ";
     }
 }
+
+
+
+void reverseArrayPtr(int arr[], const int n) {
+    int tmp[n];
+    for (int i = 0; i < n; i++) {
+        *(tmp + i) = *(arr + n - i - 1);
+    }
+    for (int i = 0; i < n; i++) {
+        *(arr + i) = *(tmp + i);
+        cout << *(tmp + i) /* --> equivalent to tmp[i] */ << ", ";
+    }
+}
+
+
+// suitNames[suitNum - 1] = *(suitNames + suitNums - 1)
+
 
 
 const int WIDTH = 0;
 const int LENGTH = 0;
 
-void transpose(const int input[][LENGTH], const int output[][WIDTH]) {
+void transpose(const int input[][LENGTH], int output[][WIDTH]) {
+
+    for (int i = 0; i < LENGTH; i++) {
+        for (int j = 0; j < WIDTH; j++) {
+            output[i][j] = input[j][i];
+        }
+    }
+}
+
+
+void intSwap(int &a, int &b) {
+
+    int c = a;
+
+    a = b;
+
+    b = c;
+
+}
+
+void intSwapPtr(int a, int b) {
+
+    int c = a;
+    int *ptrA = &a;
+    int *ptrC = &c;
+    cout << ptrA;
+
+    int *ptrB = &b;
+
+    a = *ptrB;
+    b = *ptrC;
+
+
+    cout << endl << a << ", " << b;
+
+
+}
+
+void strLength(char * str) {
+
+    int strPtr = *str;
+    int i = 1;
+    int len = 0;
+
+    while ( ((strPtr + i) >= 65 && (strPtr + i) <= 90) || ((strPtr + i) >= 97 && (strPtr + i) <= 122)) {
+        strPtr = *(str + len);
+
+        cout << strPtr << endl;
+
+        len++;
+    }
+    cout << endl << "length of string is: " << len - 1;
+
+}
+
+void ptrSwap(int a, int b) {
+    int *ptr1 = &a, *ptr2 = &b;
+
+    int *c = &a;
+
+    ptr1 = ptr2;
+
+    ptr2 = c;
+
+    cout << *ptr1 << " " << *ptr2;
+
+}
+
+void sevenFive(char * str) {
+
+    char *nthCharPtr = (str+6); // 1
+
+    nthCharPtr -= 2; // 2
+
+    cout << *nthCharPtr << endl; // 3
+
+    char ** pointerPtr = &nthCharPtr; // 4
+
+    cout << *pointerPtr << endl; // 5
+
+    cout << **pointerPtr << endl; // 6
+
+    nthCharPtr += 1; // 7
+
+    cout << 5;
 
 }
 
@@ -107,4 +210,36 @@ int main() {
     // printArray(max, 9);
 
     reverseArray(max, 9);
+
+    cout << endl;
+
+    reverseArrayPtr(max, 9);
+
+    /*
+    const char *suitNames[] = {"Clubs","Diamonds","Spades","Clubs"};
+    cout << "Enter a suit number (1-4): ";
+    unsigned int suitNum;
+    cin >> suitNum;
+    if (suitNum <= 3) {
+        cout << suitNames[suitNum - 1];
+    }
+    */
+
+    cout << endl << endl;
+
+    strLength("twelve");
+
+    cout << endl;
+
+    int one = 2;
+    int two = 1;
+
+    intSwap(one, two);
+
+    intSwapPtr(one, two);
+
+    cout << endl << endl;
+
+    ptrSwap(4,5);
+
 }

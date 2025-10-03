@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "mit_6_096_lab2"
+			"path" : "mit_6_096_lab2.exe"
+		},
+		{
+			"path" : "mit_6_096_lab2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20 -arch arm64 -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -61,12 +64,16 @@
 			{
 				"fragment" : "-g",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "mit_6_096_lab2",
-	"nameOnDisk" : "mit_6_096_lab2",
+	"nameOnDisk" : "mit_6_096_lab2.exe",
 	"paths" : 
 	{
 		"build" : ".",
