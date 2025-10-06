@@ -148,29 +148,29 @@ mit_6096_lab3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mit_6096_lab3.dir\build.make CMakeFiles/mit_6096_lab3.dir/build
 .PHONY : mit_6096_lab3/fast
 
-C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.obj: C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj
-.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.obj
+C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.obj: C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj
+.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.obj
 
 # target to build an object file
-C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mit_6096_lab3.dir\build.make CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj
-.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj
+C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mit_6096_lab3.dir\build.make CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj
+.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj
 
-C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.i: C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.i
-.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.i
+C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.i: C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.i
+.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.i
 
 # target to preprocess a source file
-C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mit_6096_lab3.dir\build.make CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.i
-.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.i
+C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mit_6096_lab3.dir\build.make CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.i
+.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.i
 
-C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.s: C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.s
-.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.s
+C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.s: C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.s
+.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.s
 
 # target to generate assembly for a file
-C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mit_6096_lab3.dir\build.make CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.s
-.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.s
+C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mit_6096_lab3.dir\build.make CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.s
+.PHONY : C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -207,9 +207,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... mit_6096_lab3
 	@echo ... mit_6_096_lab2
-	@echo ... C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.obj
-	@echo ... C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.i
-	@echo ... C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.s
+	@echo ... C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.obj
+	@echo ... C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.i
+	@echo ... C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

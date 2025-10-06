@@ -7,4 +7,5 @@ add_executable(mit_6_096_lab2 main.cpp
 
 )
 
-add_executable(mit_6096_lab3 ../mit_6.096_lab3/lab3.cpp)
+add_executable(mit_6096_lab3 ../mit_6.096_lab3/geometry.cpp
+        ../mit_6.096_lab3/geometry.h)

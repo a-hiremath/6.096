@@ -71,28 +71,28 @@ include CMakeFiles/mit_6096_lab3.dir/flags.make
 CMakeFiles/mit_6096_lab3.dir/codegen:
 .PHONY : CMakeFiles/mit_6096_lab3.dir/codegen
 
-CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj: CMakeFiles/mit_6096_lab3.dir/flags.make
-CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj: C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp
-CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj: CMakeFiles/mit_6096_lab3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj -MF CMakeFiles\mit_6096_lab3.dir\C_\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\lab3.cpp.obj.d -o CMakeFiles\mit_6096_lab3.dir\C_\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\lab3.cpp.obj -c C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\lab3.cpp
+CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj: CMakeFiles/mit_6096_lab3.dir/flags.make
+CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj: C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp
+CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj: CMakeFiles/mit_6096_lab3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj -MF CMakeFiles\mit_6096_lab3.dir\C_\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.cpp.obj.d -o CMakeFiles\mit_6096_lab3.dir\C_\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.cpp.obj -c C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.cpp
 
-CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\lab3.cpp > CMakeFiles\mit_6096_lab3.dir\C_\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\lab3.cpp.i
+CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.cpp > CMakeFiles\mit_6096_lab3.dir\C_\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.cpp.i
 
-CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\lab3.cpp -o CMakeFiles\mit_6096_lab3.dir\C_\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\lab3.cpp.s
+CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.cpp -o CMakeFiles\mit_6096_lab3.dir\C_\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.cpp.s
 
 # Object files for target mit_6096_lab3
 mit_6096_lab3_OBJECTS = \
-"CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj"
+"CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj"
 
 # External object files for target mit_6096_lab3
 mit_6096_lab3_EXTERNAL_OBJECTS =
 
-mit_6096_lab3.exe: CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp.obj
+mit_6096_lab3.exe: CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp.obj
 mit_6096_lab3.exe: CMakeFiles/mit_6096_lab3.dir/build.make
 mit_6096_lab3.exe: CMakeFiles/mit_6096_lab3.dir/linkLibs.rsp
 mit_6096_lab3.exe: CMakeFiles/mit_6096_lab3.dir/objects1.rsp

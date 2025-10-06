@@ -87,6 +87,13 @@
 			[
 				0
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"sources" : 
@@ -94,8 +101,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/lab3.cpp",
+			"path" : "C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab3/geometry.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
