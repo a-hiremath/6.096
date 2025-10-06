@@ -225,7 +225,6 @@ int main() {
     }
     */
 
-    cout << endl << endl;
 
     strLength("twelve");
 
@@ -241,5 +240,7 @@ int main() {
     cout << endl << endl;
 
     ptrSwap(4,5);
+
+    cout << endl << __cplusplus << endl;
 
 }

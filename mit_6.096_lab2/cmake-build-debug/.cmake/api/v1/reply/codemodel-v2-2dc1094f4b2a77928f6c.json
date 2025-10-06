@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,12 +31,20 @@
 					"name" : "6.096",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mit_6096_lab3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mit_6096_lab3-Debug-a69343ce730099c90c16.json",
+					"name" : "mit_6096_lab3",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "mit_6_096_lab2::@6890427a1f51a3e7e1df",
