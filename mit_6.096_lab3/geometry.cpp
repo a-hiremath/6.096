@@ -191,11 +191,12 @@ Polygon::Polygon(const Point arr[], int arrLength)
     instances++; // increment the polygon instance tracker
 }
 
-Polygon::Polygon(const PointArray ptA) // constructor taking a pre-existing pArr as an argument;
+Polygon::Polygon(const PointArray& ptA) // constructor taking a pre-existing pArr as an argument;
     : pArray(ptA) // member initialization
 {
-    instances++; 
+    instances++;
 }
+
 
 
 

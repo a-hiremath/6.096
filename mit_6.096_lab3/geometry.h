@@ -60,7 +60,7 @@ public:
 
     Polygon(const Point pts[], int length);
 
-    Polygon(const PointArray ptA);
+    Polygon(const PointArray& ptA);
 
 
 };
