@@ -156,6 +156,28 @@ void PointArray::clear() {
     resize(0);
 }
 
+Point* PointArray::get(const int position) {
+
+    // 1) return a null pointer if called with an index larger than the array size
+
+    if (position < 0 || position >= len) {
+        return nullptr;
+    }
+
+    return p + position;
+
+}
+
+const Point *PointArray::get(const int position) const {
+    if (position < 0 || position >= len) {
+        return nullptr;
+    }
+
+    return p + position;
+}
+
+    // 4.5.1: if PointArray is a const, then only its const member functions can be called, requiring the addition of an overloaded function of type const
+
 
 int main() {
 

@@ -45,6 +45,9 @@ public:
 
     const int getSize() const;
 
-
     void clear();
+
+    Point* get(const int position);
+
+    const Point* get(const int position) const;
 };
