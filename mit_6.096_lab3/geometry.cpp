@@ -179,6 +179,26 @@ const Point *PointArray::get(const int position) const {
     // 4.5.1: if PointArray is a const, then only its const member functions can be called, requiring the addition of an overloaded function of type const
 
 
+/*
+ *
+ * SECTION 5
+ *
+ */
+
+Polygon::Polygon(const Point arr[], int arrLength)
+: pArray(arr, arrLength) // initialize pArray with an array of points arr[] and the length of the array
+{
+    instances++; // increment the polygon instance tracker
+}
+
+Polygon::Polygon(const PointArray ptA) // constructor taking a pre-existing pArr as an argument;
+    : pArray(ptA) // member initialization
+{
+    instances++; 
+}
+
+
+
 int main() {
 
     Point a(1,1);

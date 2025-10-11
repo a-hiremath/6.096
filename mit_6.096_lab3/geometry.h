@@ -51,3 +51,16 @@ public:
 
     const Point* get(const int position) const;
 };
+
+class Polygon {
+protected:
+    PointArray pArray;
+    static int instances;
+public:
+
+    Polygon(const Point pts[], int length);
+
+    Polygon(const PointArray ptA);
+
+
+};
