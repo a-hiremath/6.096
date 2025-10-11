@@ -39,6 +39,8 @@ public:
 
     void resize(int n);
 
-    void insert(const int position, const Point &pt)
+    void insert(const int position, const Point &pt);
+
+    void remove(const int pos);
 
 };

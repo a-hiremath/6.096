@@ -128,6 +128,29 @@ void PointArray::insert(const int position, const Point &pt) {
 }
 
 
+void PointArray::remove(const int pos) {
+
+    // 0) boundary check
+
+    if (pos < 0 || pos >= len) {
+        cout << "hella nah boy";
+        return;
+    }
+
+    // 1) starting from index position, shift elements to the left
+    for (int i = pos; i < len - 1; i++) {
+        p[i] = p[i+1]; // set the element at position i to be equal to the element at index i+1
+    }
+
+    // 2) decrease the length of the array by one element
+
+    resize(len - 1);
+
+}
+
+
+
+
 
 int main() {
 
