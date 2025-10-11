@@ -148,8 +148,13 @@ void PointArray::remove(const int pos) {
 
 }
 
+const int PointArray::getSize() const {
+    return len;
+}
 
-
+void PointArray::clear() {
+    resize(0);
+}
 
 
 int main() {

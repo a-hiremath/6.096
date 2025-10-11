@@ -43,4 +43,8 @@ public:
 
     void remove(const int pos);
 
+    const int getSize() const;
+
+
+    void clear();
 };
