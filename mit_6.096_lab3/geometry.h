@@ -33,8 +33,12 @@ public:
 
     PointArray(const PointArray& pv);
 
+    void push_back(const Point &p);
+
     ~PointArray();
 
     void resize(int n);
+
+    void insert(const int position, const Point &pt)
 
 };

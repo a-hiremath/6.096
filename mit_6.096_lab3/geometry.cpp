@@ -35,7 +35,7 @@ void Point::setY(const int new_y) {
 
 // PointArray Methods
 
-PointArray::PointArray() : p(nullptr) {
+PointArray::PointArray() : p(nullptr), len(0) {
 
 }
 
@@ -89,6 +89,44 @@ void PointArray::resize(int n) {
 
 }
 
+void PointArray::push_back(const Point &pt) {
+
+    int oldLen = len;
+    resize(oldLen + 1); // increase the size of the array by one element
+    p[oldLen] = pt;
+
+}
+
+void PointArray::insert(const int position, const Point &pt) {
+
+    Point pt1 = pt;
+
+    if (position < 0 || position > len) {
+        cout << "i\'m not letting that slide lil bro watch your tone";
+        return;
+    }
+
+    int oldLen = len; // save the original length of the array
+    resize(oldLen + 1); // increase the size of the array by one element
+
+    for (int i = oldLen - 1; i >= position; i--) {
+        p[i + 1] = p[i]; // shift values in the array one element forward until reaching position passed in argument
+    }
+
+    p[position] = pt1;
+
+
+    // int oldLen = len;
+    // resize(len + 1); // increase the size of the array by one element
+    //
+    // for (int i = oldLen; i != position; i--) {
+    //     p[oldLen - i] = p[oldLen - i - 1]; // move the values of the array forward by one until reaching the insert position
+    // }
+    //
+    // p[position] = pt; // set the value of the array at position to be equal to the point passed in the argument
+
+}
+
 
 
 int main() {
@@ -100,22 +138,12 @@ int main() {
     Point boi[] = {a,b,c};
 
     PointArray jawn(boi, 3);
+    jawn.push_back(Point(7,8));
+    std::cout << "\nsize=" << jawn.getLen();                 // expect 4
+    std::cout << "\nlast=("
+              << jawn.getPointArray(3).getX() << ", "
+              << jawn.getPointArray(3).getY() << ")";        // expect (7,8)
 
-    cout << endl << jawn.getLen();
-
-    // for (int i=0; i < jawn.getLen(); i++) {
-    //     cout << jawn[i].getX();
-    // }
-
-    cout << endl << jawn.getPointArray(2).getY();
-
-    PointArray d = jawn;
-
-    cout << endl << d.getPointArray(2).getY();
-
-    d.getPointArray(2).setY(1);
-
-    cout << endl << d.getPointArray(2).getY();
 
 
 
