@@ -58,9 +58,14 @@ protected:
     static int instances;
 public:
 
+    // constructors
+
     Polygon(const Point pts[], int length);
 
     Polygon(const PointArray& ptA);
 
+    // member functions
+
+    
 
 };
