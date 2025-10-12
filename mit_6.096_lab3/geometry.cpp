@@ -246,8 +246,8 @@ double Rectangle::area() const {
     const Point* ll = pArray.get(0);
     const Point* ur = pArray.get(2);
 
-    double width = abs(ll->getX() - ll->getX());
-    double height = abs(ll->getY() - ll->getY());
+    double width = abs(ll->getX() - ur->getX());
+    double height = abs(ll->getY() - ur->getY());
 
     return width * height;
 }
@@ -318,9 +318,9 @@ void printAttributes(Polygon* poly) {
 
     // print the area of the polygon
 
-    cout << poly->area();
 
-    cout << "the area of the polygon";
+    cout << "the area of the polygon" << endl;
+    cout << poly->area() << endl;
 
     // print the (x,y) coordinates of all of its points
 
@@ -331,7 +331,7 @@ void printAttributes(Polygon* poly) {
 
     for (int i = 0; i < n; i++) {
         const Point* pi = pa->get(i);
-        cout << returnCoordinates(*pi);
+        cout << returnCoordinates(*pi) << endl;
     }
 
 }
