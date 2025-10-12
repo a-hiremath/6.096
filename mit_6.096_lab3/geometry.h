@@ -74,6 +74,8 @@ public:
 
     const PointArray* getPoints() const;
 
+    void printAttributes(Polygon *);
+
 };
 
 class Rectangle : public Polygon {
@@ -101,4 +103,5 @@ public:
     // member functions
 
     double area() const override;
+
 };

@@ -266,30 +266,154 @@ Triangle::Triangle(const Point &pt1, const Point &pt2, const Point &pt3) : Polyg
 
 }
 
-
+int Polygon::instances = 0;
 
 double Triangle::area() const {
+
+    const Point* A = pArray.get(0);
+    const Point* B = pArray.get(1);
+    const Point* C = pArray.get(2);
+
+    auto dist = [](const Point* P, const Point* Q) {
+        double dx = double(Q->getX()) - double(P->getX());
+        double dy = double(Q->getY()) - double(P->getY());
+        return sqrt(dx*dx + dy*dy);
+    };
+
+    double a = dist(B,C);
+    double b = dist(A,C);
+    double c= dist(A,B);
+
+    double s = (a+b+c) / 2;
+    return sqrt(s*(s-a)*(s-b)*(s-c));
+}
+
+
+/*
+ *
+ * 5.6
+ *
+ */
+
+// 5.6.1: if the constructors were private, then they wouldn't be able to be called/accessed outside of scope
+
+// 5.6.2: when a polygon object is destroyed, the fields are????
+
+// 5.6.3: we need to make the fields of polygon protected so that they can be accessed by subclasses
+
+// 5.6.4:
+
+/*
+ *
+ * 5.7
+ *
+ */
+
+auto returnCoordinates(Point tsPoint) {
+    string message = "(" + std::to_string(tsPoint.getX()) + "," + std::to_string(tsPoint.getY()) + ")";
+    return message;
+}
+
+void printAttributes(Polygon* poly) {
+
+    // print the area of the polygon
+
+    cout << poly->area();
+
+    cout << "the area of the polygon";
+
+    // print the (x,y) coordinates of all of its points
+
+    cout << "coordinates:" << endl;
+
+    const PointArray* pa = poly->getPoints();
+    const int n = pa->getSize();
+
+    for (int i = 0; i < n; i++) {
+        const Point* pi = pa->get(i);
+        cout << returnCoordinates(*pi);
+    }
 
 }
 
 
 int main() {
 
-    Point a(1,1);
-    Point b(1,2);
-    Point c(1,3);
-
-    Point boi[] = {a,b,c};
-
-    PointArray jawn(boi, 3);
-    jawn.push_back(Point(7,8));
-    std::cout << "\nsize=" << jawn.getLen();                 // expect 4
-    std::cout << "\nlast=("
-              << jawn.getPointArray(3).getX() << ", "
-              << jawn.getPointArray(3).getY() << ")";        // expect (7,8)
+/*
+ *
+ * 5.7
+ *
+ */
 
 
+// prompt the user for a rectangle
 
+    cout << "enter lower left point x coordinate for rectangly jawn";
+
+    int llx;
+
+    cin >> llx;
+
+    cout << "enter lower left point y coordinate for tha rectangly jawnski";
+
+    int lly;
+
+    cin >> lly;
+
+    cout << "entire upper right point x coordinate for thaski rectski jawnski brewski broski";
+
+    int urx;
+
+    cin >> urx;
+
+    cout << "do the thing that does the thing if you want that rectanglyskiothy";
+
+    int ury;
+
+    cin >> ury;
+
+    // create rectangle accordingly
+
+    Rectangle rectingle(llx, lly, urx, ury);
+
+    // prompt user for point positions of a triangle
+
+    cout << "return point positions for a triangle; point 1:";
+
+    int p1x, p1y, p2x, p2y, p3x, p3y;
+
+    cout << endl << "p1x";
+
+    cin >> p1x;
+
+    cout << endl << "p1y";
+
+    cin >> p1y;
+
+    cout << endl << "point 2:";
+
+    cout << endl << "p2x";
+
+    cin >> p2x;
+
+    cout << endl << "p2y";
+
+    cin >> p2y;
+
+    cout << endl << "point 3:" << endl << "p3x";
+
+    cin >> p3x;
+
+    cout << endl << "p3y";
+
+    cin >> p3y;
+
+    Point p1(p1x, p1y), p2(p2x,p2y), p3(p3x,p3y);
+
+    Triangle jawnski(p1,p2,p3);
+
+    printAttributes(&rectingle);
+    printAttributes(&jawnski);
 
 
     return 0;

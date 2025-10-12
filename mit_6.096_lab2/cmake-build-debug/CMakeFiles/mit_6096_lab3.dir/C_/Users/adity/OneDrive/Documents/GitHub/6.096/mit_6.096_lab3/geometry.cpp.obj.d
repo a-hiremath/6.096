@@ -150,4 +150,20 @@ CMakeFiles/mit_6096_lab3.dir/C_/Users/adity/OneDrive/Documents/GitHub/6.096/mit_
  C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.h
+ C:\Users\adity\OneDrive\Documents\GitHub\6.096\mit_6.096_lab3\geometry.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/x86_64-w64-mingw32/include/math.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc
