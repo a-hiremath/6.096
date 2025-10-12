@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include "geometry.h"
+#include <cmath>
+
 
 
 using namespace std;
@@ -197,7 +199,78 @@ Polygon::Polygon(const PointArray& ptA) // constructor taking a pre-existing pAr
     instances++;
 }
 
+int Polygon::getNumPolygons() const {
+    return instances;
+}
 
+int Polygon::getNumSides() const {
+
+
+    return pArray.getSize();
+}
+
+const PointArray* Polygon::getPoints() const {
+    return &pArray;
+}
+
+
+
+/*
+ *
+ *  Section 5.4: Rectangle
+ *
+ */
+
+
+
+Point constructorPoints[4];
+
+Point *updateConstructorPoints(const Point &p1, const Point &p2, const Point &p3, const Point &p4 = Point(0,0)) {
+    constructorPoints[0] = p1;
+    constructorPoints[1] = p2;
+    constructorPoints[2] = p3;
+    constructorPoints[3] = p4;
+    return constructorPoints;
+}
+
+Rectangle::Rectangle(int x1, int y1, int x2, int y2) :
+Polygon(updateConstructorPoints( Point(x1,y1), Point(x1,y2), Point(x2,y1), Point(x2,y2)), 4) {}
+
+Rectangle::Rectangle(Point pt1, Point pt2)
+: Polygon( updateConstructorPoints( Point(pt1.getX(), pt1.getY()), Point(pt1.getX(), pt2.getY()), Point(pt2.getX(), pt2.getY()), Point(pt2.getX(), pt1.getY()) ), 4 ) {}
+
+
+
+double Rectangle::area() const {
+
+    const Point* ll = pArray.get(0);
+    const Point* ur = pArray.get(2);
+
+    double width = abs(ll->getX() - ll->getX());
+    double height = abs(ll->getY() - ll->getY());
+
+    return width * height;
+}
+
+Point constructorPointsT[3];
+
+Point *updateConstructorPointsT(const Point &p1, const Point &p2, const Point &p3 = Point(0,0)) {
+    constructorPointsT[0] = p1;
+    constructorPointsT[1] = p2;
+    constructorPointsT[2] = p3;
+
+    return constructorPointsT;
+}
+
+Triangle::Triangle(const Point &pt1, const Point &pt2, const Point &pt3) : Polygon(updateConstructorPointsT(pt1, pt2, pt3), 3) {
+
+}
+
+
+
+double Triangle::area() const {
+
+}
 
 
 int main() {
@@ -218,5 +291,7 @@ int main() {
 
 
 
+
     return 0;
+
 }

@@ -66,6 +66,39 @@ public:
 
     // member functions
 
-    
+    virtual double area() const = 0;
 
+    int getNumPolygons() const;
+
+    int getNumSides() const;
+
+    const PointArray* getPoints() const;
+
+};
+
+class Rectangle : public Polygon {
+public:
+
+    // constructors
+
+    Rectangle(Point pt1, Point pt2);
+
+    Rectangle(int x1, int y1, int x2, int y2);
+
+    // member functions
+
+    double area() const override;
+
+};
+
+class Triangle : public Polygon {
+public:
+
+    // constructors
+
+    Triangle(const Point& pt1, const Point& pt2, const Point& pt3);
+
+    // member functions
+
+    double area() const override;
 };
