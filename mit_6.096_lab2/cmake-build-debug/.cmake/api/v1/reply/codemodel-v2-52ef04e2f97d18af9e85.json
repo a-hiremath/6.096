@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -43,6 +45,13 @@
 					"id" : "mit_6096_lab3::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-mit_6096_lab3-Debug-0a2d73734c1eabe74d8c.json",
 					"name" : "mit_6096_lab3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mit_6096_lab3_Strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mit_6096_lab3_Strings-Debug-0c2f9ba1b659b929e246.json",
+					"name" : "mit_6096_lab3_Strings",
 					"projectIndex" : 0
 				},
 				{
