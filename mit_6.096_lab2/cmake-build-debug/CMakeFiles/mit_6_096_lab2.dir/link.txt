@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2025.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\mit_6_096_lab2.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\mit_6_096_lab2.dir/objects.a @CMakeFiles\mit_6_096_lab2.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\mit_6_096_lab2.dir/objects.a -Wl,--no-whole-archive -o mit_6_096_lab2.exe -Wl,--out-implib,libmit_6_096_lab2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mit_6_096_lab2.dir\linkLibs.rsp

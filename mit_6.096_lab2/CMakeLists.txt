@@ -12,3 +12,7 @@ add_executable(mit_6096_lab3 ../mit_6.096_lab3/geometry.cpp
 
 add_executable(mit_6096_lab3_Strings ../mit_6.096_lab3/pigLatinify.cpp
         ../mit_6.096_lab3/piglatin.h)
+
+
+add_executable(mit_6096_lab4 ../mit_6.096_lab4/pset4.cpp
+        ../mit_6.096_lab4/pset4.h)

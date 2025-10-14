@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "6.096",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mit_6096_lab3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mit_6096_lab3-Debug-648cfc9dcc6d163033ab.json",
+					"name" : "mit_6096_lab3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mit_6096_lab3_Strings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mit_6096_lab3_Strings-Debug-5a1a86ea3ac549cd04c4.json",
+					"name" : "mit_6096_lab3_Strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mit_6096_lab4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mit_6096_lab4-Debug-aa1727d3f26e55d7fd2a.json",
+					"name" : "mit_6096_lab4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mit_6_096_lab2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mit_6_096_lab2-Debug-12ad70041f0943cc1e41.json",
+					"name" : "mit_6_096_lab2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug",
+		"source" : "/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

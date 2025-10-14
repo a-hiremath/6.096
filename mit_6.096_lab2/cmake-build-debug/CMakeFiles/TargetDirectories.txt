@@ -1,5 +1,6 @@
-C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6_096_lab2.dir
-C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6096_lab3.dir
-C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6096_lab3_Strings.dir
-C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adity/OneDrive/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6_096_lab2.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6096_lab3.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6096_lab3_Strings.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/mit_6096_lab4.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/adihiremath/Documents/GitHub/6.096/mit_6.096_lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
