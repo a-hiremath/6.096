@@ -18,14 +18,4 @@ t minNum(t num1, t num2);
 
 // section 4
 
-template <typename T>
-class stack {
-    T vector<stack>;
-    public:
-    bool empty() const;
-    void push(const T &item);
-    T top();
-    void pop();
-};
-
 

@@ -4,7 +4,10 @@
 
 #include <iostream>
 #include "pset4.h"
+#include <vector>
 
+
+class Triangle;
 using namespace std;
 
 
@@ -38,7 +41,11 @@ t minNum(t num1, t num2) {
 
 // 3.1
 
+    // static_cast<Triangle *>(p);
+
 // 3.2
+
+    // dynamic_cast<Triangle *>(p);
 
 /*
  *
@@ -46,12 +53,29 @@ t minNum(t num1, t num2) {
  *
  */
 
+template <typename t>
+class Stack {
+    vector<t> arr;
+public:
 
-template <typename T>
+    bool empty() const {
+        return arr.empty();
+    }
 
-T stack::top() {
-    
-}
+    void push(const t& val) {
+        arr.push_back(val);
+    }
+
+    t top() const {
+        return arr.back();
+    }
+
+    void pop() {
+        arr.pop_back();
+    }
+
+};
+
 
 int main() {
 
